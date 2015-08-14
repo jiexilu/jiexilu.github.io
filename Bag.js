@@ -67,6 +67,8 @@ class Bag {
 
 	bool shouldDisappear(x, y) {
 		if ((x <= xPosition + size && x >= xPosition - size) && (y <= yPosition + size && y >= yPosition - size)) {
+			xPosition = -200; 
+			yPosition = -200;
 			return true;
 		}
 		return false;
