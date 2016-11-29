@@ -1,0 +1,28 @@
+body {
+  background: url(img/skiing-bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+img {
+  margin: 10px 0 0 5px;
+  width: 32px;
+  height: 32px;
+}
+
+#text {
+  margin-top:10%;
+}
+
+#name {
+  font-size:50px;
+}
+
+.info {
+  font-size:18px;
+  margin: 5px;
+}
